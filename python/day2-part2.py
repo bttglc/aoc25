@@ -1,7 +1,7 @@
 import sys
 import re
 
-pattern = r"^(\d+)\1$"
+pattern = r"^(\d+)(\1)+$"
 sum = 0
 
 
